@@ -18,5 +18,4 @@ jobs:
           token: ${{ secrets.RENOVATE_TOKEN }}
         env:
           RENOVATE_REPOSITORIES: ${{ secrets.RENOVATE_REPOSITORIES }}
-          RENOVATE_GIT_AUTHOR: ${{ secrets.RENOVATE_GIT_AUTHOR }}
           LOG_LEVEL: fatal
